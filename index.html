@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7_dtp.css" rel="stylesheet" type="text/css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+       
+      <div class="wrapper">
+
+           <div class="container">
+
+                    <div class="navbar">
+
+.                        <div class="logo">
+                              <div >
+                                 <img src="Images/Deepak logo.png" alt="" class="logo-image">
+                              </div>
+                              <div class="logo-text">Deepak</div>
+                         </div>
+
+                         <div class="nav-items">
+                              <div><a href="#Home">Home</a></div>
+                              <div><a href="#About">About</a></div> 
+                              <div><a href="#education">Education</a></div>
+                              <div><a href="#Skills">Skills</a></div>
+                              <div><a href="#projects">Projects</a></div>
+                              <div><a href="#contactme">ContactMe</a></div>
+                              
+                         </div>
+
+
+
+                    </div>
+
+
+                     <div class="hero-section" id="home">  
+                         <div class="hero-section-left">
+                              <div class="hero-section-heading">
+                                     Hi there,
+                              </div>
+
+                              <div class=" hero-section-heading2">
+                                     I'm <span id="user-name">Deepak Saroj</span> 
+                              </div>
+
+                              <div class="hero-section-role">
+                                   I am a  <span class="role"></span>
+                              </div>
+
+                              <div>
+                                   <p>Also learning some emerging technologies like : </p>
+                                   <div class="hero-section-tech">
+                                        <ul style="list-style-type:none;" >
+                                             <li>ML Enthusiast</li>
+                                             <li>Learning Blockchain</li>
+                                        </ul>
+                                   </div>
+                                   
+                              </div>
+
+                              <div class="btn-pink" id="btn">
+                                   Resume
+                              </div>
+
+                         </div>
+
+
+                         <div class="hero-section-right">
+
+                              <div class="user-image">
+                                   <img src="Images/Deepak.jpg" alt="">
+                              </div>
+
+                         </div>
+
+
+
+                     </div>
+
+
+           </div>
+
+
+           <div class="about-section" id="About">
+               <div class="container">
+                    <div class="about-heading">About Me
+                    </div> 
+                    
+                    <div class="about-info">
+                         <div class="about-info-1">Hello everyone, myself Deepak Saroj and I'm a 
+                         </div>
+
+                         <div class="about-info-2">pre-final year IT student.</div>
+
+
+
+                    </div>
+
+
+               </div>
+               
+           </div>
+
+
+          <div class="contactus-form-container" id="contactme">
+               <div class="container">
+                    <h1 class="contactus-heading ">Contact Me</h1>
+                    <h3 class="contactus-sub-heading">
+                         Questions,thoughts,or just want to say hello?
+                    </h3>
+
+                    <div class="contactus-form-container">
+                         <form action="">
+                              <div class="formfield-container">
+
+                                   <input class="formfield"
+                                    type="text"
+                                    name="name"
+                                    id=""
+                                    placeholder="Enter your name"/>
+
+                                    <input class="formfield"
+                                    type="email"
+                                    name="email"
+                                    id=""
+                                    placeholder="Enter your email address"/>
+
+                                    <input class="formfield"
+                                    type="text"
+                                    name="subject"
+                                    id=""
+                                    placeholder="Enter your subject"/>
+
+                                    <textarea name="message"
+                                     id="" cols="30" rows="10"
+                                     class="formfield formfield-textarea"
+                                     placeholder="Enter your message"></textarea>
+
+
+                              </div>
+
+                              <div>
+                                   <button type="submit" class="btn-pink" id="submit-btn">
+                                     Send Message<i class="submit-icon fa-solid fa-paper-plane"></i>
+                                   </button>
+                              </div>
+
+
+
+
+                         </form>
+                    </div>
+               </div>
+
+          </div>
+
+
+          <footer>
+               <div class="container">
+                    <div class="footer-wrapper">
+                         <div class="footer-text">Deepak Saroj
+                              <div class="footer-text-email">deepakkumarsaroj600@gmail.com</div>
+
+                         </div>
+                         
+
+
+                         <div class="link-wrapper">
+                              <div><a href="#home">Home</a></div>
+                              <div><a href="#projects">Projects</a></div>
+                              <div><a href="#contactme">ContactMe</a></div>
+                         </div>
+
+                         <div class="icon-wrapper">
+                              <i class="fa-brands fa-linkedin icon"></i>
+                              <i class="fa-brands fa-github icon"></i>
+                              <i class="fa-brands fa-twitter icon"></i>
+                              <i class="fa-brands fa-instagram icon"></i>
+                              <i class="fa-brands fa-linkedin icon"></i>
+                         </div>
+                         
+                    </div>
+                    <div class="end-text">&#169Deepak Saroj | All Rights Reserved</div>
+
+
+
+                    </div>
+
+                    
+          </footer>
+
+
+      </div>
+
+
+
+
+
+      <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+      <script>
+          var typeData = new Typed(".role", {
+            strings: [
+               "Full Stack Developer",
+               "Web Developer",
+               "UI-UX Designer"
+          ],
+            loop:true,
+            typeSpeed: 50,
+            backSpeed:80,
+            backDelay:1000,
+          });
+      </script> 
+      
+</body>
+</html>
